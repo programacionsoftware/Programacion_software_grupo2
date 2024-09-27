@@ -1,0 +1,52 @@
+.container {
+
+    background-color: #0461a5;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 20px;
+  
+}
+
+.col-sm-12 img {
+
+   width: 100px;
+   height: 100px;
+   padding: 10px;
+margin: 20px;
+    
+}
+
+.form-control {
+
+  margin: auto;
+  padding: 20px;
+}
+
+span img {
+    width: 20px;
+}
+
+.form-check {
+
+    text-align: left;
+  
+}
+
+.form-check label {
+
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.enlace-password {
+
+    display: inline-flexbox;
+    width: 200px;
+    float: inline-end;
+}
+
+.enlace-password a {
+
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

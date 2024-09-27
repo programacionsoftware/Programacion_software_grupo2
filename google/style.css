@@ -1,0 +1,213 @@
+body {
+ margin: 0;
+ padding: 0;
+}
+
+header {
+
+    color: #fff;
+    padding: 10px;
+}
+
+header nav {
+  width: 100% ;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+  
+}
+
+header nav ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header nav ul li .correo {
+
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+header nav ul li .correo:hover {
+text-decoration: underline;
+cursor: pointer;
+  
+}
+.menu-apps{
+    background-image: url('../google/img/menu.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.button-menu{
+    background-color: #0b57d0;
+    border-radius: 40px;
+    padding: 10px
+
+}
+
+.button-menu a {
+    text-decoration: none;
+  
+}
+
+.button-menu{
+    width: 100px;
+    border-radius: 40px;
+    color: #ffffff;
+    background-color: #0b57d0;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.button-menu a span{
+    color: #ffffff;
+    font-size: 12px;
+
+}
+
+main {
+
+    text-align: center;
+    justify-content: center;
+
+}
+
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+
+}
+
+main .main-entrada{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-entrada .main-entrada-buscar{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-entrada .main-entrada-buscar input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+main .main-entrada .main-entrada-buscar{
+box-shadow: 0 1px 6px 0 #000000;
+border-color: #dfe1e500;
+}
+.buscar{
+        background-image: url('../google/img/buscar.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 18px;
+        height: 18px;
+}
+
+.main-buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+
+ 
+}
+
+.buscar-google {
+    margin: 20px;
+    width: 500px;
+}
+
+.buscar-google button {
+    margin: 20px;
+    height: 50px;
+    width: 200px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+  
+}
+
+.buscar-google button:hover {
+    border: 1px solid #cdd8e0;
+    background-color: #f1f3f5;
+    box-shadow:  1px 1px rgba(0, 0, 0, .1);
+}
+
+.footer-secundario {
+    background-color:#f2f2f2;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    border: 1px solid #d2d2d2;
+}
+
+.footer-secundario span {
+    margin: 10px;
+    color: #444746;
+}
+
+.footer-tercero{
+ background-color: #f2f2f2;
+ height: 75px;
+ display: flex;
+}
+
+.footer-cuarto {
+width: 500px;
+display: contents;
+display: flex;
+justify-content: start;
+margin-right: auto;
+align-items: center;
+padding: 20px;
+}
+
+.footer-cuarto a {
+    color: #444746;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.footer-cuarto a:hover {
+    text-decoration: underline;
+}
+
+.footer-quinto {
+    width: 500px;
+    display: contents;
+    display: flex;
+    justify-content: end;
+    margin-left: auto;
+    align-items: center;
+    padding: 20px; 
+    
+}
+
+.footer-quinto a{
+    color:#444746;
+    text-decoration: none;
+    margin: 10px;
+    text-align: center;
+}
+
+.footer-quinto a:hover {
+    text-decoration: underline;
+}

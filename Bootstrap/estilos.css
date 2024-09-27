@@ -1,0 +1,53 @@
+
+body{
+
+ background-color: #306be189;
+ background-image: url('./img/pexels-babydov-7788009.jpg');
+ background-repeat: no-repeat;
+ background-size: auto;
+}
+
+
+.btn {
+    background-color:#868686;
+    width: 250px;
+    height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #0a2e76 ;
+    cursor: pointer;
+}
+
+
+.btn:hover{
+    background-color: #a7a1e8 ;
+    border: 1px solid blue;
+    color:#ffffff;
+    cursor: pointer;
+}
+.btn img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.form-control{
+    width: 300px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin: auto;
+}
+
+.col-12{
+ height: 100px;
+ padding: 25px;
+}
+
+
+
